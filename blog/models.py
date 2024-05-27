@@ -16,4 +16,4 @@ class Post(models.Model):
     def get_absolute_url(self):
         return reverse('post-details', kwargs={'pk':self.pk})
     
-    
+    #isko delete nhi kr skte ? 
